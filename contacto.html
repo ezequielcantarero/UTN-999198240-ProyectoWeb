@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprende Python | Contacto</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="alumnos.html">Alumnos</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact-form">
+            <h2>Contáctanos</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Tu email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Tu teléfono">
+                </div>
+                <div class="form-group">
+                    <label for="curso">Curso de Interés</label>
+                    <select id="curso" name="curso">
+                        <option value="basico">Python Básico</option>
+                        <option value="intermedio">Python Intermedio</option>
+                        <option value="avanzado">Python Avanzado</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Tipo de Consulta</label>
+                    <div class="radio-group">
+                        <input type="radio" id="consulta" name="tipo_consulta" value="consulta">
+                        <label for="consulta">Consulta</label>
+                        <input type="radio" id="sugerencia" name="tipo_consulta" value="sugerencia">
+                        <label for="sugerencia">Sugerencia</label>
+                        <input type="radio" id="reclamo" name="tipo_consulta" value="reclamo">
+                        <label for="reclamo">Reclamo</label>
+                    </div>
+                 </div>
+                <div class="form-group">
+                    <label for="comentario">Comentario</label>
+                    <textarea id="comentario" name="comentario" rows="5" placeholder="Escribe tu comentario" required></textarea>
+                </div>
+                <div class="form-buttons">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Restablecer</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2024 Aprende Python</p>
+    </footer>
+</body>
+</html>
