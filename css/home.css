@@ -6,16 +6,16 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    min-height: 100vh; /* Cambiado a min-height para que crezca con el contenido */
+    min-height: 100vh; 
     background-color: #050F1E;
-    padding: 2rem; /* Añadido padding para pantallas pequeñas */
+    padding: 2rem; 
 }
 
 #hero img {
     max-width: 80%;
-    max-height: 33.33vh;
+    max-height: 80.33vh;
     margin-bottom: 1rem;
-    object-fit: contain; /* Asegura que la imagen se ajuste dentro del contenedor */
+    object-fit: contain; 
 }
 
 #intro {
@@ -29,12 +29,12 @@
 @media (max-width: 768px) {
     #hero {
         padding: 1rem;
-        min-height: auto; /* Permite que la sección hero se ajuste al contenido */
+        min-height: auto; 
     }
 
     #hero img {
-        max-width: 100%; /* La imagen ocupa el 100% del ancho en pantallas pequeñas */
-        max-height: 50vh; /* Ajusta la altura máxima según sea necesario */
+        max-width: 100%; 
+        max-height: 50vh; 
     }
 
     #intro {
@@ -45,10 +45,10 @@
 
 @media (max-width: 480px) {
     #hero h1 {
-        font-size: 2rem; /* Reduce el tamaño del título en móviles pequeños */
+        font-size: 2rem; 
     }
 
     #hero p {
-        font-size: 1rem; /* Reduce el tamaño del párrafo en móviles pequeños */
+        font-size: 1rem; 
     }
 }
