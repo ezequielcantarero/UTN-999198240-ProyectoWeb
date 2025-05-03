@@ -1,6 +1,6 @@
 /* Estilos para la Sección Alumnos */
 #alumnos-destacados {
-    background-color: #f8f8f8;
+    background-color: #02111B;
     padding: 2rem;
 }
 
@@ -16,7 +16,7 @@
     padding: 1rem;
     margin-bottom: 1rem;
     text-align: center;
-    width: 300px; /* Ajusta el ancho según sea necesario */
+    width: 300px;
 }
 
 .card img {
@@ -33,7 +33,7 @@
 }
 
 #testimonios {
-    background-color: white;
+    background-color: #02111B;
     padding: 2rem;
     margin-top: 2rem;
 }

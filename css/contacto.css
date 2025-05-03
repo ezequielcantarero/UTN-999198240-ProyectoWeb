@@ -1,7 +1,7 @@
 /* Estilos para la Sección Contacto */
 
 #contact-form {
-    background-color: #f8f8f8;
+    background-color: #02111B;
     padding: 2rem;
 }
 
@@ -28,7 +28,7 @@ textarea {
 }
 
 textarea {
-    resize: vertical; /* Permite redimensionar verticalmente */
+    resize: vertical;
 }
 
 .radio-group {
