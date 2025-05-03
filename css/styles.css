@@ -5,11 +5,11 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #050F1E;
+    background-color: #02111B;
 }
 
 header {
-    background-color: #050F1E;
+    background-color: #02111B;
     color: white;
     padding: 1rem 0;
 }
@@ -45,7 +45,7 @@ main {
 }
 
 footer {
-    background-color: #050F1E;
+    background-color: #02111B;
     color: white;
     text-align: center;
     padding: 1rem 0;

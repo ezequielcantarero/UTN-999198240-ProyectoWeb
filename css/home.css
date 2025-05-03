@@ -7,7 +7,7 @@
     justify-content: center;
     text-align: center;
     min-height: 100vh; 
-    background-color: #050F1E;
+    background-color: #02111B;
     padding: 2rem; 
 }
 
@@ -19,7 +19,7 @@
 }
 
 #intro {
-    background-color: #050F1E;
+    background-color: #02111B;
     padding: 2rem;
     margin-top: 2rem;
 }
