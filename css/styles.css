@@ -14,6 +14,31 @@ header {
     padding: 1rem 0;
 }
 
+.header-content {
+    display: flex;
+    justify-content: space-between; /* Coloca el logo a la izquierda y la navegación a la derecha */
+    align-items: center; /* Centra verticalmente los elementos */
+    max-width: 1200px; /* Opcional: Limita el ancho del header para pantallas grandes */
+    margin: 0 auto; /* Opcional: Centra el header horizontalmente */
+    padding: 0 1rem;  /* Añade padding horizontal */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 50px; /* Ajusta el tamaño del logo */
+    margin-right: 10px; /* Espacio entre el logo y el nombre */
+}
+
+.logo h1 {
+    font-size: 1.5rem; /* Ajusta el tamaño del nombre */
+    margin: 0;
+    font-weight: bold;
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -39,7 +64,7 @@ nav a:hover {
 }
 
 main {
-    padding: 2rem;
+    /*padding: 1rem;*/
     min-height: 80vh;
     color: white;
 }
